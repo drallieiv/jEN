@@ -31,6 +31,14 @@ public class TimedEvent {
         return duration;
     }
 
+	/**
+	 * Update Duration
+	 * @param duration
+	 */
+	public void setDuration(double duration) {
+		this.duration = duration;
+	}
+	
     /**
      * @return the confidence
      */
