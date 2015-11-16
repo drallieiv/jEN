@@ -12,7 +12,7 @@ public class TrackAnalysis {
     private MQuery mq;
 
     @SuppressWarnings("unchecked")
-    TrackAnalysis(Map map) {
+    public TrackAnalysis(Map map) {
         this.map = map;
         this.mq = new MQuery(map);
     }
