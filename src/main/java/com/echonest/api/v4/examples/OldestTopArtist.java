@@ -27,7 +27,7 @@ public class OldestTopArtist {
 
         Collections.sort(artists,
                 new Comparator<Artist>() {
-                    @Override
+                    
                     public int compare(Artist t1, Artist t2) {
                         try {
                             Long y1 = t1.getYearsActive().getRange()[0];
