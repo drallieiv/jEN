@@ -16,6 +16,11 @@ public class TimedEvent {
         duration = mq.getDouble("duration");
         confidence = mq.getDouble("confidence");
     }
+    
+    public TimedEvent(double start, double duration) {
+        this.start = start;
+        this.duration = duration;
+    }
 
     /**
      * @return the start
